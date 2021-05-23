@@ -1,0 +1,46 @@
+@import './layout/reset';
+@import './layout/smart-grid';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap');
+
+@import './components/buttons';
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+  @include container();
+}
+
+.main{
+  min-height: calc(100vh - 40px);
+}
+
+h1 {
+  font-size: 2em;
+  margin: 10px 0 20px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 5px 0 15px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.20em;
+  margin: 0 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-2{
+  margin-top: 30px;
+}
+
+.mt-3{
+  margin-top: 50px;
+}

@@ -1,0 +1,16 @@
+@import '../layout/mixins';
+
+.header {
+  box-sizing: border-box;
+  height: 40px;
+  padding: 10px 0;
+  background: $color_dark;
+
+  .logo {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+
